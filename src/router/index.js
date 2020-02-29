@@ -4,8 +4,10 @@ import Login from '../views/login.vue'
 import Disease from '../views/disease.vue'
 import TodoList from '../views/todoList.vue'
 import UserList from '../views/userList.vue'
+import UserContent from '../views/userContent.vue'
 import MessageList from '../views/messageList.vue'
 import VisitList from '../views/visitList.vue'
+import VisitContent from '../views/visitContent.vue'
 import VisitRemind from '../views/visitRemind.vue'
 import MessageContent from '../views/messageContent.vue'
 Vue.use(VueRouter)
@@ -77,6 +79,15 @@ const routes = [
         title: "随访提醒"
       },
     },
+    {
+      path: '/userContent',
+      name: 'userContent',
+      component: UserContent,
+      meta: {
+        keepAlive: false,
+        title: "个人资料"
+      },
+    },
     // 四级
     {
       path: '/messageContent',
@@ -85,6 +96,15 @@ const routes = [
       meta: {
         keepAlive: false,
         title: "消息详情"
+      },
+    },
+    {
+      path: '/visitContent',
+      name: 'visitContent',
+      component: VisitContent,
+      meta: {
+        keepAlive: false,
+        title: "编辑嘱托"
       },
     },
 

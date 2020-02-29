@@ -230,4 +230,9 @@ li {
   -webkit-line-clamp: 4;
   overflow: hidden;
 }
+html,body,#app{
+  width: 100%;
+  height:100%;
+  background-color: #fff;
+  }
 </style>

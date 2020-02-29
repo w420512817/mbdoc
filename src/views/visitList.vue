@@ -14,7 +14,7 @@
           <img src="../assets/img/user.png" style="width:100%" >
         </template>
       </van-image>
-      <van-button class="zt-btn" type="info" slot="right-icon" size="small" to="">编辑嘱托</van-button>
+      <van-button class="zt-btn" type="info" slot="right-icon" size="small" to="visitContent">编辑嘱托</van-button>
     </van-cell>
   </div>
 </template>

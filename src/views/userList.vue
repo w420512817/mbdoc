@@ -3,7 +3,7 @@
     <!-- 服务对象 -->
     <van-index-bar>
       <!-- <van-index-anchor index="A" /> -->
-    <van-cell center :title="item.name" v-for="(item,index) in userlist" :key="index" to="">
+    <van-cell center :title="item.name" v-for="(item,index) in userlist" :key="index" to="userContent">
       <van-image
         slot="icon"
         class="cell-img"

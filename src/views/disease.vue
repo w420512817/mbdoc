@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div class="disease-box">
     <!-- 慢病管理 -->
       <van-cell class="cell-box" center title="待办事项" is-link to="todoList">
         <div class="icon-box" slot="icon">
@@ -34,8 +34,13 @@ export default {
 </script>
 
 <style scoped>
+.disease-box{
+  height: 100%;
+  background-color: #F4F4F4;
+  padding-top: 15px;
+}
 .cell-box {
-  margin: 15px;
+  margin: 0 15px 15px;
   width: calc(100% - 30px);
   border-radius: 20px;
   height: 93px;

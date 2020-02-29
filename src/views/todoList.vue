@@ -26,6 +26,7 @@ export default {
 </script>
 
 <style scoped>
+
 .van-cell{
   padding: 20px;
 }
